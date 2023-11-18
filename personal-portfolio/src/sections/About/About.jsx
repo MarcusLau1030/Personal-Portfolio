@@ -4,7 +4,7 @@ import ProfilePicture from "./ProfilePicture.jsx";
 function About() {
 
     return(
-        <div className="bg-page_background w-full h-screen">
+        <section id="About" className="bg-page_background w-full h-screen">
             <div className="flex h-full">
                 <div className="flex flex-row mt-56 mx-56">
                     <div className="flex-none w-2/3">
@@ -15,7 +15,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 
 }
