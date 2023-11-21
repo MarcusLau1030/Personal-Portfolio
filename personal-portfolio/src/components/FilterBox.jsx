@@ -7,7 +7,11 @@ function FilterBox({handleButtonClick, buttonStates}) {
             <button
             key={button}
             onClick={() => handleButtonClick(button)}
-            className="text-xl bg-white px-3 py-2 rounded"
+            className={`text-xl px-3 py-2 rounded transition ${
+                buttonStates[button]
+                  ? 'bg-blue-700 text-white'
+                  : 'bg-white text-black'
+              } hover:bg-blue-500 hover:text-white`}
             >
             {button}
             </button>

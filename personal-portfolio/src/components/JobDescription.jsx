@@ -1,4 +1,5 @@
 
+import Skill from "./Skill"
 import PropTypes from 'prop-types';
 
 function JobDescription(props) {
@@ -26,6 +27,7 @@ function JobDescription(props) {
                     ))}
                 </ul>
             </div>
+
         </li>
     );
 

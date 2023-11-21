@@ -1,5 +1,4 @@
 
-import Skill from "../../components/Skill"
 import JobDescription from "../../components/JobDescription";
 
 function Experience() {
@@ -28,9 +27,12 @@ function Experience() {
                 
                 
                 <ol class="w-full justify-center m-10 sm:flex mt-[10%]">
-                    <JobDescription title="Kelvin" date="June 2023 - August 2023" icon="kelvin_icon.jpg" job_title="Software Engineering Intern" description={first_points}></JobDescription>
-                    <JobDescription title="D15:4" date="September 2022 - August 2023" icon="d154.png" job_title="Tutor" description={second_points}></JobDescription>
-                    <JobDescription title="Orcinus Partners" date="May 2022 - June 2023" icon="orcinus_icon.png" job_title="Software Developer" description={third_points}></JobDescription>
+                    <JobDescription title="Kelvin" date="June 2023 - August 2023" icon="kelvin_icon.jpg" 
+                    job_title="Software Engineering Intern" description={first_points}></JobDescription>
+                    <JobDescription title="D15:4" date="September 2022 - August 2023" icon="d154.png" 
+                    job_title="Tutor" description={second_points}></JobDescription>
+                    <JobDescription title="Orcinus Partners" date="May 2022 - June 2023" icon="orcinus_icon.png" 
+                    job_title="Software Developer" description={third_points}></JobDescription>
 
                 </ol>
 
