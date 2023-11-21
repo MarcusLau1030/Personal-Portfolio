@@ -1,10 +1,10 @@
 
-import Skill from "./Skill"
 import PropTypes from 'prop-types';
+
 
 function JobDescription(props) {
 
-    const image_path = '/' + props.icon
+    const image_path = "../../assets/" + props.icon
 
     return(
         <li className="w-full max-w-lg relative mb-6 sm:mb-0">
