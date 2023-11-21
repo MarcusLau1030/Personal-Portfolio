@@ -11,10 +11,10 @@ function Header() {
               <Link text="Projects"></Link>
               <div className="flex justify-between w-20 h-5">
                 <a href="https://github.com/BabyDinos" className="w-10 h-5">
-                  <img src="/github.webp"/> 
+                  <img src="/Personal-Portfolio/src/assets/github.webp"/> 
                 </a>
                 <a href="https://www.linkedin.com/in/marcus-lau-2a904918b/" className="w-10 h-5">
-                  <img src="/linkedin.webp"/> 
+                  <img src="/Personal-Portfolio/src/assets/linkedin.webp"/> 
                 </a>
               </div>
             </header>

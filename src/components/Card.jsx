@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function Card(props) {
 
-    const image_path = '/' + props.image_name
+    const image_path = "/Personal-Portfolio/src/assets/" + props.image_name
     const isLinkDefault = props.link === "#";
 
     if (!isLinkDefault) {
