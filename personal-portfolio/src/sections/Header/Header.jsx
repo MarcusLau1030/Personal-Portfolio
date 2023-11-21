@@ -4,12 +4,19 @@ function Header() {
 
     return(
         <div className="flex justify-center bg-page_background">
-          <div className="bg-header_background flex self-center justify-between w-[90%] px-20 py-7 rounded-b-2xl ">
+          <div className="z-50 fixed bg-header_background flex justify-between w-[90%] px-20 py-7 rounded-b-2xl ">
             <header className="flex w-full justify-center items-center gap-80">
               <Link text="About"></Link>
               <Link text="Experience"></Link>
               <Link text="Projects"></Link>
-              <Link text="Contact"></Link>
+              <div className="flex justify-between w-20 h-5">
+                <a href="https://github.com/BabyDinos" className="w-10 h-5">
+                  <img src="/github.webp"/> 
+                </a>
+                <a href="https://www.linkedin.com/in/marcus-lau-2a904918b/" className="w-10 h-5">
+                  <img src="/linkedin.webp"/> 
+                </a>
+              </div>
             </header>
           </div>
         </div>
