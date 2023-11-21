@@ -16,7 +16,7 @@ function About() {
                         <Synopsis></Synopsis>
                         <div className="flex flex-wrap gap-2 mt-3 w-1/2">
                         {skills.map((point, index) => (
-                            <Skill skill={point}></Skill>
+                            <Skill key={index} skill={point}></Skill>
                             ))}
                         </div>
                     </div>

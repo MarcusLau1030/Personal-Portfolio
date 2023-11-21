@@ -1,4 +1,7 @@
 import Link from "../../components/Link"
+import github_image from "../../assets/github.webp"
+import linkedin_image from "../../assets/linkedin.webp"
+import images from "../../images"
 
 function Header() {
 
@@ -11,10 +14,10 @@ function Header() {
               <Link text="Projects"></Link>
               <div className="flex justify-between w-20 h-5">
                 <a href="https://github.com/BabyDinos" className="w-10 h-5">
-                  <img src="/Personal-Portfolio/src/assets/github.webp"/> 
+                  <img src={images["github"]}/> 
                 </a>
                 <a href="https://www.linkedin.com/in/marcus-lau-2a904918b/" className="w-10 h-5">
-                  <img src="/Personal-Portfolio/src/assets/linkedin.webp"/> 
+                  <img src={images["linkedin"]}/> 
                 </a>
               </div>
             </header>

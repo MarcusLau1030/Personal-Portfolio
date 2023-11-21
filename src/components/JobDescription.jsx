@@ -1,10 +1,12 @@
 
 import PropTypes from 'prop-types';
-
+import images from "../images"
 
 function JobDescription(props) {
 
     const image_path = "/Personal-Portfolio/src/assets/" + props.icon
+    const image = images[props.icon]
+
 
     return(
         <li className="w-full max-w-lg relative mb-6 sm:mb-0">
@@ -13,7 +15,7 @@ function JobDescription(props) {
                     {/* <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                     </svg> */}
-                    <img className="rounded-full" src={image_path}></img>
+                    <img className="rounded-full" src={image}></img>
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
