@@ -77,20 +77,23 @@ function Project() {
     });
 
     return(
-        <section id="Projects" className="h-screen bg-page_background ">
-            <div className='flex min-h-fit bg-page_background'>
-                <div className='flex flex-col h-full gap-5 mx-auto'>
-                    <div className='mt-[170%] lg:mt-[25%]'></div>
+        <section id="Projects" className="w-screen h-screen bg-page_background ">
+            <div className='flex min-h-fit w-full bg-page_background'>
+                <div className='flex flex-col w-full h-full gap-5 mx-auto items-center'>
+                    <div className='mt-[20%] lg:mt-[10%]'></div>
                     <FilterBox handleButtonClick={handleButtonClick} buttonStates={buttonStates}></FilterBox>
                     <div className='mt-[5%]'></div>
-                    {filteredProjects.map((project) => (
-                    <Card
-                        title={project.title}
-                        description={project.description}
-                        image_name={project.image_name}
-                        link={project.link}
-                    />
-                    ))}
+                    <div className="w-full flex flex-col gap-4 items-center">
+                      {filteredProjects.map((project) => (
+                      <Card
+                          title={project.title}
+                          description={project.description}
+                          image_name={project.image_name}
+                          link={project.link}
+                      />
+                      ))}
+                    </div>
+
                     <div className='mb-[30%]'></div>
                 </div>
             </div>

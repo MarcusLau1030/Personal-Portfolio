@@ -22,24 +22,28 @@ function Experience() {
     ]
 
     return(
-        <section id="Experience" className="bg-page_background w-full h-screen">
-            <div className="flex h-full">
-                
-                
-                <ol className="w-full justify-center m-10 flex  mt-[90%] lg:mt-[10%]">
-                    <JobDescription title="Kelvin" date="June 2023 - August 2023" icon="kelvin" 
-                    job_title="Software Engineering Intern" description={first_points}></JobDescription>
-                    <JobDescription title="D15:4" date="September 2022 - August 2023" icon="d154" 
-                    job_title="Tutor" description={second_points}></JobDescription>
-                    <JobDescription title="Orcinus Partners" date="May 2022 - June 2023" icon="orcinus" 
-                    job_title="Software Developer" description={third_points}></JobDescription>
+        <>
+            <section id="Experience" className="bg-page_background w-screen h-screen">
+                <div className="flex h-full">
+                    
+                    
+                    <ol className="w-full justify-center m-10 flex mt-[30%] lg:mt-[10%]">
+                        <JobDescription title="Kelvin" date="June 2023 - August 2023" icon="kelvin" 
+                        job_title="Software Engineering Intern" description={first_points}></JobDescription>
+                        <JobDescription title="D15:4" date="September 2022 - August 2023" icon="d154" 
+                        job_title="Tutor" description={second_points}></JobDescription>
+                        <JobDescription title="Orcinus Partners" date="May 2022 - June 2023" icon="orcinus" 
+                        job_title="Software Developer" description={third_points}></JobDescription>
 
-                </ol>
+                    </ol>
 
 
-                {/* <Skill skill="Python"></Skill> */}
-            </div>
-        </section>
+                    {/* <Skill skill="Python"></Skill> */}
+                </div>
+            </section>
+            <div className="bg-page_background h-screen"></div>
+        </>
+
     );
 
 }

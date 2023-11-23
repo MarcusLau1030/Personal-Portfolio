@@ -2,7 +2,7 @@
 function FilterBox({handleButtonClick, buttonStates}) {
 
     return(
-        <div className="flex justify-between px-24">
+        <div className="flex justify-between px-24 lg:gap-4">
         {Object.keys(buttonStates).map((button) => (
             <button
             key={button}

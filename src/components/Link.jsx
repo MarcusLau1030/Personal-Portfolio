@@ -16,7 +16,7 @@ function Link(props) {
       };
 
     return(
-        <div className="text-header_text font-mono text-2xl leading-5 tracking-normal">
+        <div className="text-header_text font-mono text-sm lg:text-2xl leading-5 tracking-normal">
             <button onClick={scrollToSection}>{props.text}</button >
         </div>
     );
