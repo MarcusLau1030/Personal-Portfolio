@@ -26,7 +26,7 @@ function Experience() {
             <div className="flex h-full">
                 
                 
-                <ol className="w-full justify-center m-10 sm:flex mt-[10%]">
+                <ol className="w-full justify-center m-10 flex  mt-[90%] lg:mt-[10%]">
                     <JobDescription title="Kelvin" date="June 2023 - August 2023" icon="kelvin" 
                     job_title="Software Engineering Intern" description={first_points}></JobDescription>
                     <JobDescription title="D15:4" date="September 2022 - August 2023" icon="d154" 

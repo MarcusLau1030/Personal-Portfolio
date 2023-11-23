@@ -80,7 +80,7 @@ function Project() {
         <section id="Projects" className="h-screen bg-page_background ">
             <div className='flex min-h-fit bg-page_background'>
                 <div className='flex flex-col h-full gap-5 mx-auto'>
-                    <div className='mt-[25%]'></div>
+                    <div className='mt-[170%] lg:mt-[25%]'></div>
                     <FilterBox handleButtonClick={handleButtonClick} buttonStates={buttonStates}></FilterBox>
                     <div className='mt-[5%]'></div>
                     {filteredProjects.map((project) => (
