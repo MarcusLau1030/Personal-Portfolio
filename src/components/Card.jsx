@@ -10,7 +10,7 @@ function Card(props) {
     if (!isLinkDefault) {
         return(
             <a href={props.link} className="flex flex-col lg:flex-row  max-w-full w-full h-full max-h-48 items-center bg-white border-gray-200 rounded-xl shadow lg:max-w-xl">
-                <img className="object-contain w-1/2 h-1/2 lg:w-full lg:h-48 rounded-l-lg" src={image} alt="" />
+                <img className="object-contain w-[10%] h-1/2 lg:w-full lg:h-48 rounded-l-lg" src={image} alt="" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{props.description}</p>
@@ -20,7 +20,7 @@ function Card(props) {
     }
     return(
         <div className="flex flex-col lg:flex-row max-w-full w-full h-full max-h-48 items-center bg-white border-gray-200 rounded-xl shadow lg:max-w-xl">
-            <img className="object-contain w-1/2 h-1/2 lg:w-full lg:h-48 rounded-l-lg" src={image} alt="" />
+            <img className="object-scale-down w-[10%] h-1/2 lg:w-full lg:h-48 rounded-l-lg" src={image} alt="" />
             <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{props.description}</p>
