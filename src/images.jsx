@@ -9,6 +9,7 @@ import portfoliooptimization_img from "./assets/po.png"
 import profilepicture_img from "./assets/profile_picture.jpg"
 import shopping_img from "./assets/shopping.png"
 import tradingbot_img from "./assets/tb.jpg"
+import hithit_gif from "./assets/Hit!Hit.gif"
 
 
 const images = {
@@ -23,6 +24,7 @@ const images = {
     "profilepicture": profilepicture_img,
     "shopping": shopping_img,
     "tb": tradingbot_img,
+    "hit!hit_gif": hithit_gif,
 }
 
 
